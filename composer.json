@@ -1,0 +1,22 @@
+{
+  "name": "magic/connectdb",
+  "description": "ConnectDb is a lightweight library to connect to MySql using PDO",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "ConnectDb\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5.8"
+  }
+}
